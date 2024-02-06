@@ -3,21 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!--
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  -->
   <link href="./dist/output.css" rel="stylesheet">
 </head>
-<body>
+<body class="p-3">
   <!--
   Home
   New
@@ -91,6 +81,7 @@
   </nav>
   -->
 
+  <!--
   <div>
     <div class="grid grid-cols-2 pt-10 gap-16 ">
       <div class="w-[960px]">
@@ -163,9 +154,56 @@
       </div>
     </div>
   </div>
+  -->
 
-  <!-- drawer init and toggle -->
-  <!--
+  <div class="grid grid-rows-2 sm:grid-cols-2 gap-5">
+    <div>
+      <img src="./assets/images/image-web-3-desktop.jpg" class="hidden sm:block">
+      <img src="./assets/images/image-web-3-mobile.jpg" class="block sm:hidden">
+
+      <div class="grid grid-rows-2 sm:grid-cols-2 pt-8">
+        <div>
+          <h1 class="font-extrabold text-5xl sm:text-7xl">The Bright Future of Web 3.0?</h1>
+        </div>
+        <div>
+          <p class="text-color-dark-gray-blue">We dive into the next evolution of the web that claims to put the power of the platforms back into the 
+            hands of the people. But is it really fulfilling its promise?
+          </p>
+          <button class="text-color-off-white bg-[#f15e50] hover:bg-[#a0190d] focus:ring-4 focus:ring-[#f8b1aa] font-medium text-sm px-10 py-4 mt-7 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" 
+          type="button">READ MORE</button>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#00001a] p-7">
+      <h1 class="text-color-orange text-5xl font-semibold">NEWS</h1>
+
+      <h2 class="text-color-off-white font-semibold text-2xl pt-8">Hydrogen VS Electric Cars</h2>
+      <p class="text-color-gray-blue pt-4 pb-8">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+      
+      <h2 class="text-color-off-white font-semibold text-2xl pt-8">The Downsides of AI Artistry</h2>
+      <p class="text-color-gray-blue pt-4 pb-8">What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+
+      <h2 class="text-color-off-white font-semibold text-2xl pt-8">Is VC Funding Drying Up?</h2>
+      <p class="text-color-gray-blue pt-4 pb-8">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+  </div>
+
+  <div class="grid grid-rows-3 sm:grid-cols-3 gap-5 pt-16">
+    <div class="grid grid-cols-2 w-96 gap-5">
+      <div>
+        <img src="./assets/images/image-retro-pcs.jpg">
+      </div>
+      <div>
+        <h1 class="text-[#c5c6ce] text-5xl font-semibold pb-5">01</h1>
+        <h2 class="font-extrabold pb-3">Reviving Retro PCs</h2>
+        <p class="text-[#5d5f79]">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- drawer init and toggle
   <div class="text-center pt-16">
     <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
     Show right drawer
