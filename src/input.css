@@ -15,29 +15,29 @@ body {
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: #3e52a3
 }
 
 .text-color-orange {
-    color: hsl(35, 77%, 62%);
+    color: #e9ab53;
 }
 
 .text-color-red {
-    color: hsl(5, 85%, 63%);
+    color: #f15e50;
 }
 
 .text-color-off-white {
-    color: hsl(36, 100%, 99%);
+    color: #fffdfa;
 }
 
 .text-color-gray-blue {
-    color: hsl(233, 8%, 79%);
+    color: #c5c6ce;
 }
 
 .text-color-dark-gray-blue {
-    color: hsl(236, 13%, 42%);
+    color: #5d5f79;
 }
 
 .text-color-very-dark-blue {
-    color: hsl(240, 100%, 5%);
+    color: #00001a;
 }
