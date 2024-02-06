@@ -1,9 +1,9 @@
 # Tech News Home Page
 
-Adrian Martinez
-2 / 6 / 2024 - 2:31 PM
-Tech News Home Page
-This is build with normal HTML and TailWindCSS, meant to replicate the design in the images of the folder
+Adrian Martinez<br>
+2 / 6 / 2024 - 2:31 PM<br>
+Tech News Home Page<br>
+This is build with normal HTML and TailWindCSS, meant to replicate the design in the images of the folder<br>
 
 Peer Reviewer - Tyler Nguyen (2:00PM)
 Peer Review -
