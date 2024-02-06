@@ -5,7 +5,7 @@ Adrian Martinez<br>
 Tech News Home Page<br>
 This is build with normal HTML and Tailwind CSS, meant to replicate the design in the images of the folder<br>
 
-Peer Reviewed by Tyler Nguyen (2:00 PM)<br>
+Peer Reviewed by Tyler Nguyen (2:00 PM):<br>
 ### Desktop Display (1440px)<br>
 The First picture width is supposed to be longer. The News picture box is too big.<br>
 News text isn't supposed to be all Caps<br>
