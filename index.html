@@ -52,13 +52,13 @@
       <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="./assets/images/logo.svg" class="h-8" alt="Flowbite Logo" />
       </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <div class="hidden w-full lg:block md:w-auto" id="navbar-default">
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
@@ -156,20 +156,21 @@
   </div>
   -->
 
-  <div class="grid grid-rows-2 sm:grid-cols-2 gap-5">
+  <div class="grid grid-rows-2 lg:grid-cols-2 gap-16 md:gap-16 lg:gap-7">
     <div>
-      <img src="./assets/images/image-web-3-desktop.jpg" class="hidden sm:block">
-      <img src="./assets/images/image-web-3-mobile.jpg" class="block sm:hidden">
+      <img src="./assets/images/image-web-3-desktop.jpg" class="hidden lg:block"> <!-- Desktop Image -->
+      <img src="./assets/images/image-web-3-desktop.jpg" class="hidden md:block lg:hidden w-full"> <!-- Tablet Image -->
+      <img src="./assets/images/image-web-3-mobile.jpg" class="block md:hidden w-full"> <!-- Mobile Image -->
 
-      <div class="grid grid-rows-2 sm:grid-cols-2 pt-8">
+      <div class="grid grid-rows-2 lg:grid-cols-2 pt-8 md:gap-6 lg:gap-0">
         <div>
-          <h1 class="font-extrabold text-5xl sm:text-7xl">The Bright Future of Web 3.0?</h1>
+          <h1 class="font-extrabold text-5xl md:text-7xl">The Bright Future of Web 3.0?</h1>
         </div>
         <div>
           <p class="text-color-dark-gray-blue">We dive into the next evolution of the web that claims to put the power of the platforms back into the 
             hands of the people. But is it really fulfilling its promise?
           </p>
-          <button class="text-color-off-white bg-[#f15e50] hover:bg-[#a0190d] focus:ring-4 focus:ring-[#f8b1aa] font-medium text-sm px-10 py-4 mt-7 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" 
+          <button class="text-color-off-white bg-[#f15e50] hover:bg-[#a0190d] focus:ring-4 focus:ring-[#f8b1aa] font-medium text-lg px-10 py-4 mt-7 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" 
           type="button">READ MORE</button>
         </div>
       </div>
@@ -190,7 +191,7 @@
     </div>
   </div>
 
-  <div class="grid grid-rows-3 sm:grid-cols-3 gap-5 pt-16">
+  <div class="grid grid-rows-3 lg:grid-cols-3 gap-5 pt-16 pb-16">
     <div class="grid grid-cols-2 w-96 gap-5">
       <div>
         <img src="./assets/images/image-retro-pcs.jpg">
@@ -199,6 +200,26 @@
         <h1 class="text-[#c5c6ce] text-5xl font-semibold pb-5">01</h1>
         <h2 class="font-extrabold pb-3">Reviving Retro PCs</h2>
         <p class="text-[#5d5f79]">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 w-96 gap-5">
+      <div>
+        <img src="./assets/images/image-top-laptops.jpg">
+      </div>
+      <div>
+        <h1 class="text-[#c5c6ce] text-5xl font-semibold pb-5">02</h1>
+        <h2 class="font-extrabold pb-3">Top 10 Laptops of 2022</h2>
+        <p class="text-[#5d5f79]">Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 w-96 gap-5">
+      <div>
+        <img src="./assets/images/image-gaming-growth.jpg">
+      </div>
+      <div>
+        <h1 class="text-[#c5c6ce] text-5xl font-semibold pb-5">03</h1>
+        <h2 class="font-extrabold pb-3">The Growth of Gaming</h2>
+        <p class="text-[#5d5f79]">How the pandemic has sparked fresh opportunities.</p>
       </div>
     </div>
   </div>
