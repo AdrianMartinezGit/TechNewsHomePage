@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: interFont;
+    src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+  }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: interFont, sans-serif;
 }
 .attribution { 
     font-size: 11px; 
