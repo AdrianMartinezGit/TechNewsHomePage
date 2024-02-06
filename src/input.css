@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: interFont;
+    font-family: 'Inter';
     src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf');
   }
 
 body {
-    font-family: interFont, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .attribution { 
     font-size: 11px; 
@@ -40,4 +40,8 @@ body {
 
 .text-color-very-dark-blue {
     color: #00001a;
+}
+
+a:hover {
+    color: #f15e50;
 }
